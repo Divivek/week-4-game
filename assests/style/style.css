@@ -1,0 +1,58 @@
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+/*body  {
+    background-image: url("paper.gif");
+    background-color: #cccccc;
+}*/
+
+body  {
+
+  background-image: url("../images/paper.gif");
+  background-color: #cccccc;
+}
+
+.well{
+  background-color: rgba(71, 13, 2, 0.24);
+}
+
+.crystal-image {
+  width: 150px;
+  height: 150px;
+}
+ 
+ .navbar-header {
+  margin-bottom: 0;
+  border-radius: 0;
+  text-align: center;
+}
+ 
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {
+height: 450px;
+text-align: center;
+}
+
+.well {
+      background-color: rgba(71, 13, 2, 0.24);
+}
+
+.btn btn-default {
+   background-color: rgba(71, 13, 2, 0.24);
+}
+
+/* Set black background color, white text and some padding */
+footer {
+  background-color: teal;
+  color: white;
+  padding: 315px;
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 768px) {
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
+  .row.content {
+    height:auto;
+  } 
+}
